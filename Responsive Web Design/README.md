@@ -1,0 +1,1 @@
+This is the folder that will contain all of the certification proyects included in the Responsive Web Design Certification. The proyects are: Survey Form, Tribute Page, Technical Documentation Page, Product Landing Page and Personal Portfolio Webpage.
