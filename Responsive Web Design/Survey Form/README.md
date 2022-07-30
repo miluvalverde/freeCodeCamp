@@ -1,0 +1,1 @@
+In this proyect I will be building a survey form for freeCodeCamp were I will be using basic HTML and CSS knowledge such as HTML structure, selectors, forms, CSS colors, backgrounds, box-model, text, fonts, links, display and pseudo-class. 
