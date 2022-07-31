@@ -53,6 +53,9 @@ main {
     padding-left: 10px;
     text-align: center;
 }
+#tribute-info ul {
+    padding-inline-start: 40px;
+}
 #tribute-info ul li {
     font-size: 0.95rem;
     font-weight: 400;
@@ -60,4 +63,22 @@ main {
 }
 .bold {
     font-weight: bolder;
+}
+.quote {
+    margin: 40px 0;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+}
+.quote p {
+    margin-top: 10px;
+}
+
+.bottom-info {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.bottom-info a {
+    color: #74638f;
 }
