@@ -1,0 +1,1 @@
+In this project I will be building a tribute page about Dr. Norman Borlaug. I will be using basic HTML and CSS knowledge such as HTML structure, selectors, links, CSS colors, backgrounds, box-model, fonts and display.
