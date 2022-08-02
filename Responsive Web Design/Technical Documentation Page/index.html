@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Document</title>
 </head>
 <body>
     <main id="main-doc">
         <nav id="navbar">
             <header>JS Documentation</header>
-            <a class="nav-link" href="#Introduction">Introduction</a>
+            <a class="nav-link first-nav" href="#Introduction">Introduction</a>
             <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
             <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
             <a class="nav-link" href="#Hello_world">Hello world</a>
@@ -24,10 +25,10 @@
             <a class="nav-link" href="#if...else_statement">if...else statement</a>
             <a class="nav-link" href="#while_statement">while statement</a>
             <a class="nav-link" href="#Function_declarations">Function declarations</a>
-            <a class="nav-link" href="#Reference">Reference</a>
+            <a class="nav-link last-nav" href="#Reference">Reference</a>
         </nav>
         <section class="main-section" id="Introduction">
-            <header>Introduction</header>
+            <header class="first-header">Introduction</header>
             <p>JavaScript is a cross-platform, object-oriented scripting language. 
                 It is a small and lightweight language. Inside a host environment (for example, a web browser), 
                 JavaScript can be connected to the objects of its environment to provide programmatic control 
@@ -189,8 +190,8 @@
             <p>You may also compound the statements using else if to have multiple conditions tested in sequence, 
                 as follows:</p>
             <code>if (condition_1) { statement_1; } else if (condition_2) {
-    statement_2; } else if (condition_n) { statement_n; } else {
-    statement_last; }</code>
+                statement_2; } else if (condition_n) { statement_n; } else {
+                statement_last; }</code>
             <p>In the case of multiple conditions only the first logical condition which evaluates to true 
                 will be executed. To execute multiple statements, group them within a block statement ({ ... }). 
                 In general, it's good practice to always use block statements, especially when nesting 
@@ -253,7 +254,8 @@
         <section class="main-section" id="Reference">
             <header>Reference</header>
             <ul>
-            <li>All the documentation in this page is taken from MDN</li>
+            <li>All the documentation in this page is taken from 
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></li>
             </ul>
         </section>
     </main>
