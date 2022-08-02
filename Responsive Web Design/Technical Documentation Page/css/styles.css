@@ -39,10 +39,10 @@ body {
     text-align: left;
     text-decoration: none;
 }
-.first {
+.first-nav {
     border-top: none;
 }
-.last {
+.last-nav {
     border-bottom: none;
 }
 
@@ -82,4 +82,26 @@ code {
     margin: 10px 20px;
     padding: 20px;
     white-space: pre-line;
+}
+
+/* MEDIA */
+@media (max-width: 800px) {
+    #navbar {
+        height: 300px;
+        margin: auto 0;
+        position: relative;
+        width: 100%;
+    }
+    #main-doc:not(navbar) {
+        margin-left: 10px;
+    }
+    .first-header {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 400px) {
+    #main-doc:not(navbar) {
+        margin-right: 10px;
+        padding: 30px 8px;
+    }
 }
