@@ -1,0 +1,1 @@
+In this project I will be building a product landing page for freeCodeCamp were I will be using basic HTML and CSS knowledge such as HTML structure, selectors, forms, CSS colors, backgrounds, box-model, text, fonts, icons, links, videos, display, flexbox and media query.
