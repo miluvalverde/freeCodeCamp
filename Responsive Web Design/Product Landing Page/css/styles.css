@@ -103,3 +103,25 @@ a {
     padding: 5px 10px;
     width: 100%;
 }
+
+/* 
+    4.2 FEATURES 
+*/
+#features {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.div-features {
+    align-items:inherit;
+    display: flex;
+    flex-direction: column;
+}
+.fa-solid {
+    color: var(--color-icon);
+    margin-bottom: 10px;
+}
+.div-features h2 {
+    margin-bottom: 10px;
+}
