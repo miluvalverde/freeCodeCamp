@@ -1,0 +1,56 @@
+
+
+/* Table of contents:
+    1. LINKS AND VARIABLES
+    2. GENERAL STYLE
+    3. HEADER
+    4. MAIN
+        4.1 FORM
+        4.2 FEATURES
+        4.3 VIDEO
+        4.4 PRICE
+    5. FOOTER
+    6. MEDIAS
+    */
+
+
+
+
+/*  ===========
+    1. LINKS AND VARIABLES
+===========*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,700&display=swap');
+
+:root {
+    --color-background: #FFF7EF;
+    --color-font: #534439;
+    --color-icon: #FF8C00;
+    --color-btn: #f1c40f;
+}
+
+
+/*  ===========
+    2. GENERAL STYLE
+===========*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: var(--color-background);
+    color: var(--color-font);
+    font-family: 'Lato', sans-serif;
+}
+a {
+    color: var(--color-font);
+    text-decoration: none;
+}
+.btn, #submit {
+    background-color: var(--color-btn);
+    padding: 10px 15px;
+    border: var(--color-btn);
+    font-weight: 900;
+}
+
+
