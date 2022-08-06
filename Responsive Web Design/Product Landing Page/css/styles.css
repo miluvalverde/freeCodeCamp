@@ -78,3 +78,28 @@ a {
     justify-content: space-around;
     width: 35vw;
 }
+
+
+/*  ===========
+    4. MAIN
+===========*/
+/* 
+    4.1 FORM 
+*/
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.form h2 {
+    margin-bottom: 10px;
+}
+#form {
+    text-align: center;
+}
+#email {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    width: 100%;
+}
