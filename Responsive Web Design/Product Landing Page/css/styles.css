@@ -23,9 +23,9 @@
 
 :root {
     --color-background: #FFF7EF;
+    --color-btn: #f1c40f;
     --color-font: #534439;
     --color-icon: #FF8C00;
-    --color-btn: #f1c40f;
 }
 
 
@@ -48,9 +48,33 @@ a {
 }
 .btn, #submit {
     background-color: var(--color-btn);
-    padding: 10px 15px;
     border: var(--color-btn);
     font-weight: 900;
+    padding: 10px 15px;
 }
 
 
+/*  ===========
+    3. HEADER
+===========*/
+#header {
+    align-items: center;
+    background-color: var(--color-background);
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    padding: 0 40px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#header-img {
+    display: inline-block;
+    max-height: 40px;
+    max-width: 300px;
+}
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+}
