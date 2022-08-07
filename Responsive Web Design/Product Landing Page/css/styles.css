@@ -23,6 +23,7 @@
 
 :root {
     --color-background: #FFF7EF;
+    --color-background-two: #F5E8E5;
     --color-btn: #f1c40f;
     --color-font: #534439;
     --color-icon: #FF8C00;
@@ -49,6 +50,7 @@ a {
 .btn, #submit {
     background-color: var(--color-btn);
     border: var(--color-btn);
+    cursor: pointer;
     font-weight: 900;
     padding: 10px 15px;
 }
@@ -114,9 +116,10 @@ a {
     gap: 30px;
 }
 .div-features {
-    align-items:inherit;
+    align-items: inherit;
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
 }
 .fa-solid {
     color: var(--color-icon);
@@ -134,4 +137,37 @@ iframe {
     margin: 80px auto; 
     width: 560px;
     height: 315px;
+}
+
+/* 
+    4.4 PRICE  
+*/
+#price {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.type {
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    text-align: center;
+}
+.type h2 {
+    padding: 10px 0;
+    width: 100%;
+}
+.type-title{
+    background-color: var(--color-background-two);
+}
+.type li {
+    list-style: none;
+    padding: 5px 0;
+}
+.btn {
+    margin: 15px 0;
 }
