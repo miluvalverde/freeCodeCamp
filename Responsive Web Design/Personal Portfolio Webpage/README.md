@@ -1,0 +1,1 @@
+This is the final project needed to complete the Responsive Web Design course provided by freeCodeCamp. It will be a personal portfolio webpage were I will apply all the knowledge I have accquired till this moment. This is HTML structure, links, selectors, forms, CSS colors, backgrounds, box-model, text, fonts, pseudo-elements, flexbox and media query.
