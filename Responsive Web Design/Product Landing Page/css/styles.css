@@ -98,6 +98,7 @@ a {
 }
 .form h2 {
     margin-bottom: 10px;
+    text-align: center;
 }
 #form {
     text-align: center;
@@ -135,7 +136,7 @@ a {
     4.3 VIDEO  
 */
 iframe {
-    display:block;
+    display: block;
     margin: 80px auto; 
     width: 560px;
     height: 315px;
@@ -200,4 +201,37 @@ a:hover {
 }
 .btn:hover, #submit:hover {
     background-color: var(--color-icon);
+}
+
+
+/*  ===========
+    7. MEDIA
+===========*/
+@media (max-width: 670px) {
+    #header {
+        padding: 20px;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    #header {
+        flex-direction: column;
+    }
+    #nav-bar a {
+        padding: 5px 0;
+    }
+    iframe {
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    iframe {
+        width: 350px;
+    }
 }
