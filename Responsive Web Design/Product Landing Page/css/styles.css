@@ -10,7 +10,8 @@
         4.3 VIDEO
         4.4 PRICE
     5. FOOTER
-    6. MEDIAS
+    6. SELECTORS
+    7. MEDIAS
     */
 
 
@@ -53,6 +54,7 @@ a {
     cursor: pointer;
     font-weight: 900;
     padding: 10px 15px;
+    transition: background-color 0.7s ease-in-out;
 }
 
 
@@ -170,4 +172,32 @@ iframe {
 }
 .btn {
     margin: 15px 0;
+}
+
+
+/*  ===========
+    5. FOOTER
+===========*/
+footer {
+    background-color: var(--color-background-two);
+    margin-top: 40px;
+    padding: 20px;
+    text-align: right;
+}
+footer a {
+    margin: 15px;
+}
+.copyright {
+    font-weight: 300;
+}
+
+
+/*  ===========
+    6.  SELECTORS
+===========*/
+a:hover {
+    color: var(--color-icon);
+}
+.btn:hover, #submit:hover {
+    background-color: var(--color-icon);
 }
