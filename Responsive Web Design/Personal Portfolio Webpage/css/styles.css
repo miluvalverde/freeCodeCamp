@@ -1,0 +1,52 @@
+
+
+
+/* Table of contents
+    1. VARIABLES AND LINKS
+    2. GENERAL STRUCTURE 
+    3. HEADER
+    4. MAIN
+    5. FOOTER
+    6. MEDIA QUERIES
+*/
+
+
+
+/* ==========
+    VARIABLES AND LINKS
+========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+:root {
+    --color-background-one: #031059;
+    --color-bakcground-two: #F24405;
+    --color-bakcground-three: #2C3D73;
+    --color-font-one: #F2F2F2;
+    --color-font-two: #F2836B;
+}
+
+
+/* ==========
+    GENERAL STRUCTURE 
+========== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    line-height: 1.4;
+}
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-font-one);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: var(--color-font-two);
+}
+
+
