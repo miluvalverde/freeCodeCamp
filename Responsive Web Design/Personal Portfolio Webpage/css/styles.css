@@ -6,6 +6,9 @@
     2. GENERAL STRUCTURE 
     3. HEADER
     4. MAIN
+        4.1 WELCOME
+        4.2 PROJECTS
+        4.3 CONTACT
     5. FOOTER
     6. PSEUDO
     7. MEDIA QUERIES
@@ -20,10 +23,11 @@
 
 :root {
     --color-background-one: #031059;
-    --color-bakcground-two: #F24405;
+    --color-background-two: #881D1F;
     --color-bakcground-three: #2C3D73;
     --color-font-one: #F2F2F2;
     --color-font-two: #F2836B;
+    --color-font-three: #F24405;
 }
 
 
@@ -41,32 +45,44 @@ html {
 h1, h2 {
     color: var(--color-font-one);
     font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+}
+#projects h2 {
+    font-size: 3rem;
 }
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
 }
 a {
     color: var(--color-font-two);
     text-decoration: none;
 }
-#navbar a {
-    font-size: 22px;
+header {
+    background-color: var(--color-background-one);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
 }
-
+#navbar a {
+    font-size: 1.4rem;
+}
+#welcome {
+    background-image: linear-gradient(62deg, var(--color-bakcground-three) 0%, var(--color-background-one) 100%);
+}
+#welcome h3 {
+    color: var(--color-font-three);
+    font-style: italic;
+}
 
 /* ==========
     3. HEADER
 ========== */
-#navbar {
+header {
     align-items: center;
-    background-color: var(--color-background-one);
-    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
     display: flex;
     justify-content: flex-end;
     min-height: 70px;
     position: sticky;
     top: 0;
-    width: 100%;
 }
 #navbar a {
     padding: 0 20px;
@@ -75,5 +91,19 @@ a {
     margin-right: 30px;
 }
 
+
+/* ==========
+    4. MAIN
+========== */
+/* 
+    4.1 WELCOME
+*/
+#welcome {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 
